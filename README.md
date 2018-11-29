@@ -25,3 +25,4 @@ aliases list --local
 ```
 
 3. Now you should have everything to compile and run java programs. So go play!
+The entry file to the program can be found in `src/Example.java`

@@ -4,6 +4,6 @@
 
 ---
 compile: 
-  command: docker run -it -v ${PWD}:/code -w /code java javac Example.java
+  command: docker run -it -v ${PWD}:/code -w /code java javac -d classes src/*.java
 run: 
-  command: docker run -it -v ${PWD}:/code -w /code java java Example
+  command: docker run -it -v ${PWD}:/code -w /code/classes java java Example
